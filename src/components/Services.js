@@ -23,7 +23,7 @@ export default class Services extends Component {
       },
       {
         icon: <FaGolfBall />,
-        title: "Nicest Course",
+        title: "Greenest Course",
         info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium, nobis!'
       }
     ]

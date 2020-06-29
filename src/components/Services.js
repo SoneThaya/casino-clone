@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FaCocktail, FaHiking, FaShuttleVan, FaBeer, FaGolfBall } from 'react-icons/fa'
+import { FaCocktail, FaShuttleVan, FaGolfBall } from 'react-icons/fa'
 import { MdRestaurant } from "react-icons/md";
 
 

@@ -4,8 +4,10 @@ import {NavStyles} from '../styles/Styles'
 
 const Navbar = () => {
   return (
-    <NavStyles>
-      <div className='container'>
+   
+     
+      <div className='nav'>
+        <div className='container'>
         <Link to='/'>
           <h1>Casino</h1>
         </Link>
@@ -17,8 +19,10 @@ const Navbar = () => {
             <Link to='/dining'>Dining</Link>
             <Link to='/golf'>Golf</Link>
           </nav>
-      </div>
-    </NavStyles>
+          </div>
+        </div>
+      
+   
   )
 }
 

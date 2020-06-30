@@ -7,6 +7,7 @@ import Casino from './pages/Casino';
 import Club from './pages/Club'
 import Promotions from './pages/Promotions'
 import './App.css';
+import Entertainment from './pages/Entertainment';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/casino' exact component={Casino} />
           <Route path='/club' exact component={Club} />
           <Route path='/promotions' exact component={Promotions} />
+          <Route path='/entertainment' exact component={Entertainment} />
         </Switch>
         <Footer />
       </Router>

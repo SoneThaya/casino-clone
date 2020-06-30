@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Footer from './components/Footer';
 import Casino from './pages/Casino';
 import Club from './pages/Club'
+import Promotions from './pages/Promotions'
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/casino' exact component={Casino} />
           <Route path='/club' exact component={Club} />
+          <Route path='/promotions' exact component={Promotions} />
         </Switch>
         <Footer />
       </Router>

@@ -8,6 +8,7 @@ import Club from './pages/Club'
 import Promotions from './pages/Promotions'
 import './App.css';
 import Entertainment from './pages/Entertainment';
+import Dining from './pages/Dining'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/club' exact component={Club} />
           <Route path='/promotions' exact component={Promotions} />
           <Route path='/entertainment' exact component={Entertainment} />
+          <Route path='/dining' exact component={Dining} />
         </Switch>
         <Footer />
       </Router>

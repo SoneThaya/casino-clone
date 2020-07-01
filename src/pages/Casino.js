@@ -3,9 +3,11 @@ import host from '../images/host_sm.jpg'
 import slots from '../images/slots_sm.jpg'
 import tables from '../images/table_games_sm.jpg'
 import winners from '../images/winners_sm.jpg'
+import {ArticleStyles} from '../styles/Styles'
 
 const Casino = () => {
   return (
+    <ArticleStyles>
     <div className="container">
         <div className='casino-info'>
           <h2>TABLE MOUNTAIN CASINO OFFERS YOUR FAVORITES IN GAMING FUN!</h2>
@@ -19,7 +21,7 @@ const Casino = () => {
         <img src={winners} alt='winners' />
       </div>
     </div>
-    
+    </ArticleStyles>
   )
 }
 

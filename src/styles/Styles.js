@@ -117,46 +117,29 @@ export const NavStyles = styled.div`
 
 `
 
-export const GoogleBtn = styled.div`
-  button {
-      background: #4285F4;
-      color: white;
-      border-radius: 5px;
-      border: thin solid #888;
-      box-shadow: 1px 1px 1px grey;
-      white-space: nowrap;
-      width: 100%;
-      padding: 10px;
-      margin-top: 20px;
-      border-radius: 5px;
-      font-size: 1.2em;
-      cursor: pointer;
-    }
-    button:hover {
-      cursor: pointer;
-      background: white;
-      color: #4285F4;
-    }
+export const ArticleStyles = styled.div`
+  .container {
+    max-width: 100%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2rem;
+    padding: 10px;
+  }
+
+  .casino-info {
+    padding: 10px;
+    line-height: 1.3rem;
+  }
+  .casino-info h2 {
+    padding: 10px;
+  }
+
+  .casino-images img {
+    padding: 10px;
+  }
+
+  
+  
 `
 
-export const FacebookBtn = styled.div`
-  button {
-      background: #4267b2;
-      color: white;
-      border-radius: 5px;
-      border: thin solid #888;
-      box-shadow: 1px 1px 1px grey;
-      white-space: nowrap;
-      width: 100%;
-      padding: 10px;
-      margin-top: 20px;
-      border-radius: 5px;
-      font-size: 1.2em;
-      cursor: pointer;
-    }
-    button:hover {
-      cursor: pointer;
-      background: white;
-      color: #4267b2;
-    }
-`

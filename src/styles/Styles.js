@@ -127,15 +127,15 @@ export const ArticleStyles = styled.div`
     padding: 10px;
   }
 
-  .casino-info {
+  .article-info {
     padding: 10px;
     line-height: 1.3rem;
   }
-  .casino-info h2 {
+  .article-info h2 {
     padding: 10px;
   }
 
-  .casino-images img {
+  .article-images img {
     padding: 10px;
   }
 
